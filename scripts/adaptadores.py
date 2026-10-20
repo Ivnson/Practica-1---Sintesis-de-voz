@@ -33,6 +33,7 @@ def descargar_voz_piper(nombre="es_ES-sharvard-medium"):
     de Hugging Face.
     """
     import subprocess
+    import sys
 
     destino = MODELOS / "piper"
     destino.mkdir(parents=True, exist_ok=True)
@@ -43,7 +44,7 @@ def descargar_voz_piper(nombre="es_ES-sharvard-medium"):
 
     print(f"Descargando {nombre} ...")
     subprocess.run(
-        ["python3", "-m", "piper.download_voices", nombre, "--data-dir", str(destino)],
+        [sys.executable, "-m", "piper.download_voices", nombre, "--data-dir", str(destino)],
         check=True,
     )
     print(f"Listo: {onnx.stat().st_size / 1e6:.0f} MB")

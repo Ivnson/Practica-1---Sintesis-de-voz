@@ -51,7 +51,7 @@ def descargar_voz_piper(nombre="es_ES-sharvard-medium"):
     return onnx
 
 
-def crear_piper(nombre="es_ES-sharvard-medium", usar_gpu=False):
+def crear_piper_original(nombre="es_ES-sharvard-medium", usar_gpu=False):
     """Carga una voz de Piper y devuelve su funcion de sintesis.
 
     El modelo se carga UNA VEZ aqui. La funcion devuelta solo sintetiza,
@@ -81,6 +81,56 @@ def crear_piper(nombre="es_ES-sharvard-medium", usar_gpu=False):
     sintetiza.nombre = f"piper_{nombre}"
     sintetiza.admite_parametros = True
     return sintetiza
+
+
+def crear_piper(nombre="es_ES-sharvard-medium", usar_gpu=False):
+    """Carga una voz de Piper y devuelve su función de síntesis."""
+    import os
+    import shutil
+    import tempfile
+    import pathlib
+    import wave
+
+    from piper import PiperVoice, SynthesisConfig
+
+    # Localizar los datos de espeak-ng incluidos con Piper.
+    import piper
+
+    paquete_piper = pathlib.Path(piper.__file__).parent
+    origen = paquete_piper / "espeak-ng-data"
+
+    if not (origen / "phondata").exists():
+        raise FileNotFoundError(
+            f"No se encuentra phondata en {origen}"
+        )
+
+    # Copiar los datos a una ruta temporal corta.
+    destino = pathlib.Path(tempfile.gettempdir()) / "espeak-ng-data-piper"
+
+    if not (destino / "phondata").exists():
+        shutil.copytree(origen, destino, dirs_exist_ok=True)
+
+    # Configurar la ruta ANTES de cargar la voz.
+    os.environ["ESPEAK_DATA_PATH"] = str(destino)
+
+    onnx = descargar_voz_piper(nombre)
+
+    with sin_ruido():
+        voz = PiperVoice.load(str(onnx), use_cuda=usar_gpu)
+
+    def sintetiza(texto, ruta, **parametros):
+        cfg = SynthesisConfig(**parametros) if parametros else None
+        ruta = pathlib.Path(ruta)
+        ruta.parent.mkdir(parents=True, exist_ok=True)
+
+        with sin_ruido(), wave.open(str(ruta), "wb") as f:
+            voz.synthesize_wav(texto, f, syn_config=cfg)
+
+    sintetiza.nombre = f"piper_{nombre}"
+    sintetiza.admite_parametros = True
+
+    return sintetiza
+
 
 
 # ===========================================================================
@@ -148,6 +198,9 @@ def crear_bark(usar_gpu=True):
     modelo_id = "suno/bark-small"
     processor = AutoProcessor.from_pretrained(modelo_id)
     model = AutoModelForTextToWaveform.from_pretrained(modelo_id).to(device)
+
+    #PRUEBA
+    model.generation_config.max_length = None
     
     # Sample rate nativo de Bark (24 kHz)
     sampling_rate = model.generation_config.sample_rate

@@ -1,0 +1,25 @@
+sistema,categoria,id,texto,dur,final_st
+piper_sharvard,int_abs,f03,¿Tiene ya el certificado de notas?,1.869,-5.5
+piper_sharvard,int_abs,f11,¿Está abierta la secretaría hoy?,1.846,-0.15
+piper_sharvard,int_abs,f12,¿Puedo pagar la matrícula con tarjeta?,2.078,-0.73
+piper_sharvard,int_abs,f13,¿Ha recibido ya el correo de confirmación?,2.554,-0.24
+piper_sharvard,int_parc,f04,¿Qué documento necesita presentar?,1.962,-3.0
+piper_sharvard,int_parc,f14,¿Cuándo se publican las notas del examen?,2.334,-2.52
+piper_sharvard,int_parc,f15,¿Dónde puedo recoger el carné de estudiante?,2.426,-2.01
+piper_sharvard,int_parc,f16,¿Cuánto cuesta cada crédito de la matrícula?,2.345,0.47
+mms_spa,int_abs,f03,¿Tiene ya el certificado de notas?,2.992,-6.82
+mms_spa,int_abs,f11,¿Está abierta la secretaría hoy?,3.12,-1.03
+mms_spa,int_abs,f12,¿Puedo pagar la matrícula con tarjeta?,2.752,-0.86
+mms_spa,int_abs,f13,¿Ha recibido ya el correo de confirmación?,3.456,-4.73
+mms_spa,int_parc,f04,¿Qué documento necesita presentar?,2.976,-4.38
+mms_spa,int_parc,f14,¿Cuándo se publican las notas del examen?,3.44,-1.58
+mms_spa,int_parc,f15,¿Dónde puedo recoger el carné de estudiante?,3.296,-4.37
+mms_spa,int_parc,f16,¿Cuánto cuesta cada crédito de la matrícula?,3.088,1.42
+bark_spa,int_abs,f03,¿Tiene ya el certificado de notas?,2.013,-0.8
+bark_spa,int_abs,f11,¿Está abierta la secretaría hoy?,5.36,-2.72
+bark_spa,int_abs,f12,¿Puedo pagar la matrícula con tarjeta?,2.64,4.55
+bark_spa,int_abs,f13,¿Ha recibido ya el correo de confirmación?,2.72,6.71
+bark_spa,int_parc,f04,¿Qué documento necesita presentar?,3.907,-0.68
+bark_spa,int_parc,f14,¿Cuándo se publican las notas del examen?,2.493,2.98
+bark_spa,int_parc,f15,¿Dónde puedo recoger el carné de estudiante?,3.0,2.12
+bark_spa,int_parc,f16,¿Cuánto cuesta cada crédito de la matrícula?,3.08,-2.78

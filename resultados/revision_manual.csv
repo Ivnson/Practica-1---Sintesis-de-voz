@@ -1,0 +1,19 @@
+sistema,id,categoria,referencia,hipotesis,wer,oido,wer_oido,clase
+piper_sharvard,f05,cifras,el plazo acaba el treinta de septiembre a las catorce horas,El plazo acaba el 30 barra 09 a las 14.00.,0.4545454545454545,El plazo acaba el 30 barra 09 a las 14 00 .,0.45454545454545453,fallo_real
+piper_sharvard,f17,cifras,la matrícula cuesta mil doscientos cincuenta euros,La matrícula cuesta 1.250 euros.,0.4285714285714285,La matrícula cuesta 1.250 euros.,0.42857142857142855,convencion
+piper_sharvard,f18,cifras,el examen es el quince de enero a las nueve y media,El examen es el 15-01 a las 9.30.,0.5,El examen es el 15 barra 01 a las 9.30.,0.5,fallo_real
+piper_sharvard,f06,siglas,entregue el te efe ge en la etsi antes de junio,Entré del TFG en la ECHIG antes de junio.,0.5454545454545454,Entré del TFG en la ECHIG antes de junio.,0.5454545454545454,fallo_real
+piper_sharvard,f19,siglas,consulte la normativa de la u hache u en el boe,Consulte la normativa de la UHU en el BOE.,0.2727272727272727,Consulte la normativa de la UHU en el BEOE.,0.36363636363636365,convencion
+piper_sharvard,f20,siglas,presente el de ene i en ventanilla,Presente el DNI en ventanilla.,0.4285714285714285,Presente el DNI en ventanilla.,0.42857142857142855,convencion
+mms_spa,f05,cifras,el plazo acaba el treinta de septiembre a las catorce horas,El plazo acaba el 3 del día en ver a la cipórede.,0.7272727272727273,El plazo acaba el 3 del día en ver a la cipórede.,0.7272727272727273,fallo_real
+mms_spa,f17,cifras,la matrícula cuesta mil doscientos cincuenta euros,La matrícula cuesta 2.000 euros.,0.4285714285714285,La matrícula cuesta 2.000 euros.,0.42857142857142855,fallo_real
+mms_spa,f18,cifras,el examen es el quince de enero a las nueve y media,El examen es el dice peligro a las NNNTD.,0.5,El examen es el dice peligro a las NNNTD.,0.5,fallo_real
+mms_spa,f06,siglas,entregue el te efe ge en la etsi antes de junio,Entregue el tf en la eti antes de junio.,0.3636363636363636,Entregue el tf en la eti antes de junio.,0.36363636363636365,fallo_real
+mms_spa,f19,siglas,consulte la normativa de la u hache u en el boe,Consulte la normativa de la UNLVOE.,0.5454545454545454,Consulte la normativa de la UNLVOE.,0.5454545454545454,fallo_real
+mms_spa,f20,siglas,presente el de ene i en ventanilla,Presente el MIEM Ventanilla.,0.5714285714285714,Presente el MIEM Ventanilla.,0.5714285714285714,fallo_real
+bark_spa,f05,cifras,el plazo acaba el treinta de septiembre a las catorce horas,"El plazo acaba al 30, a las 14 estos.",0.5454545454545454,El plazo acaba al 30 coma a las 14 estos.,0.5454545454545454,fallo_real
+bark_spa,f17,cifras,la matrícula cuesta mil doscientos cincuenta euros,La matrícula cuesta 1.250 euros.,0.4285714285714285,La matrícula cuesta 1.250 euros.,0.42857142857142855,convencion
+bark_spa,f18,cifras,el examen es el quince de enero a las nueve y media,El examen es el 1501 a las 9.30.,0.5,El examen es el 1501 a las 9 y 30.,0.4166666666666667,fallo_real
+bark_spa,f06,siglas,entregue el te efe ge en la etsi antes de junio,Entregue tu TFG en la ETC antes de junio.,0.4545454545454545,Entregue tu TFG en la ETC antes de junio.,0.45454545454545453,fallo_real
+bark_spa,f19,siglas,consulte la normativa de la u hache u en el boe,Consonte la normativa de la UGACHU en el BOE.,0.3636363636363636,Consonte la normativa de la UGACHU en el BOE.,0.36363636363636365,fallo_real
+bark_spa,f20,siglas,presente el de ene i en ventanilla,presente el DNI en ventanilla.,0.4285714285714285,presente el DNI en ventanilla.,0.42857142857142855,convencion

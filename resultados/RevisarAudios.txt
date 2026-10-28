@@ -1,0 +1,18 @@
+bark_spa F05 -> DEBERIA DECIR :el plazo acaba el treinta de septiembre a las catorce horas  -> DICE: El plazo acaba al 30 coma a las 14 estos.
+mms_spa F05 -> DEBERIA DECIR :el plazo acaba el treinta de septiembre a las catorce horas -> DICE: El plazo acaba el 3 del día en ver a la cipórede.
+piper_sharvard F05 -> DEBERIA DECIR :el plazo acaba el treinta de septiembre a las catorce horas -> DICE: El plazo acaba el 30 barra 09 a las 14 00 .
+bark_spa F06 -> DEBERIA DECIR : entregue el te efe ge en la etsi antes de junio -> DICE: Entregue tu TFG en la ETC antes de junio.
+mms_spa F06 -> DEBERIA DECIR : entregue el te efe ge en la etsi antes de junio -> DICE: Entregue el tf en la eti antes de junio.
+piper_sharvard F06 -> DEBERIA DECIR :entregue el te efe ge en la etsi antes de junio -> DICE: Entré del TFG en la ECHIG antes de junio.
+bark_spa F17-> DEBERIA DECIR : la matrícula cuesta mil doscientos cincuenta euros -> DICE: La matrícula cuesta 1.250 euros.
+mms_spa F17 -> DEBERIA DECIR : la matrícula cuesta mil doscientos cincuenta euros -> DICE: La matrícula cuesta 2.000 euros.
+piper_sharvard F17 -> DEBERIA DECIR : la matrícula cuesta mil doscientos cincuenta euros -> DICE: La matrícula cuesta 1.250 euros.
+bark_spa F18 -> DEBERIA DECIR : el examen es el quince de enero a las nueve y media -> DICE:  El examen es el 1501 a las 9 y 30.
+mms_spa F18 -> DEBERIA DECIR : el examen es el quince de enero a las nueve y media  -> DICE:El examen es el dice peligro a las NNNTD.
+piper_sharvard F18-> DEBERIA DECIR : el examen es el quince de enero a las nueve y media -> DICE: El examen es el 15 barra 01 a las 9.30.
+bark_spa F19 -> DEBERIA DECIR : consulte la normativa de la u hache u en el boe -> DICE: Consonte la normativa de la UGACHU en el BOE.
+mms_spa  F19-> DEBERIA DECIR : consulte la normativa de la u hache u en el boe -> DICE: Consulte la normativa de la UNLVOE.
+piper_sharvard F19-> DEBERIA DECIR : consulte la normativa de la u hache u en el boe -> DICE: Consulte la normativa de la UHU en el BEOE.
+bark_spa F20-> DEBERIA DECIR : presente el de ene i en ventanilla -> DICE:presente el DNI en ventanilla.
+mms_spa F20-> DEBERIA DECIR : presente el de ene i en ventanilla -> DICE: Presente el MIEM Ventanilla.
+piper_sharvard F20-> DEBERIA DECIR : presente el de ene i en ventanilla  -> DICE: Presente el DNI en ventanilla.

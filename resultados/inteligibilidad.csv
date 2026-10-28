@@ -1,0 +1,62 @@
+Column1;Column2;Column3;Column4;Column5;Column6
+sistema;id;categoria;referencia;hipotesis;wer
+piper_sharvard;f01;decl;la secretaría abre de nueve a dos;La secretaría abre de 9 a 2.;0.285714
+piper_sharvard;f02;decl;puede recoger el justificante en conserjería;Puede recoger el justificante en Consejería.;0.166667
+piper_sharvard;f07;decl;la matrícula se formaliza en la secretaría virtual;La matrícula se formaliza en la Secretaría Virtual.;0.0
+piper_sharvard;f08;decl;el profesor atiende en tutorías los martes por la tarde;El profesor atiende en tutorías los martes por la tarde.;0.0
+piper_sharvard;f09;decl;recuerde traer el carné de estudiante;Recuerde traer el carné de estudiante.;0.0
+piper_sharvard;f10;decl;la biblioteca permanece cerrada durante el puente de diciembre;La biblioteca permanece cerrada durante el Puente de Diciembre.;0.0
+piper_sharvard;f03;int_abs;tiene ya el certificado de notas;Tiene ya el certificado de notas.;0.0
+piper_sharvard;f11;int_abs;está abierta la secretaría hoy;Está abierta la secretaría hoy.;0.0
+piper_sharvard;f12;int_abs;puedo pagar la matrícula con tarjeta;Puedo pagar la matrícula con tarjeta.;0.0
+piper_sharvard;f13;int_abs;ha recibido ya el correo de confirmación;Ha recibido ya el correo de confirmación.;0.0
+piper_sharvard;f04;int_parc;qué documento necesita presentar;¿Qué documento necesita presentar?;0.0
+piper_sharvard;f14;int_parc;cuándo se publican las notas del examen;cuando se publican las notas del examen.;0.142857
+piper_sharvard;f15;int_parc;dónde puedo recoger el carné de estudiante;donde puedo recoger el carné de estudiante.;0.142857
+piper_sharvard;f16;int_parc;cuánto cuesta cada crédito de la matrícula;cuánto cuesta cada crédito de la matrícula.;0.0
+piper_sharvard;f05;cifras;el plazo acaba el treinta de septiembre a las catorce horas;El plazo acaba el 30 barra 09 a las 14.00.;0.454545
+piper_sharvard;f17;cifras;la matrícula cuesta mil doscientos cincuenta euros;La matrícula cuesta 1.250 euros.;0.428571
+piper_sharvard;f18;cifras;el examen es el quince de enero a las nueve y media;El examen es el 15-01 a las 9.30.;0.5
+piper_sharvard;f06;siglas;entregue el te efe ge en la etsi antes de junio;Entré del TFG en la ECHIG antes de junio.;0.545455
+piper_sharvard;f19;siglas;consulte la normativa de la u hache u en el boe;Consulte la normativa de la UHU en el BOE.;0.272727
+piper_sharvard;f20;siglas;presente el de ene i en ventanilla;Presente el DNI en ventanilla.;0.428571
+mms_spa;f01;decl;la secretaría abre de nueve a dos;La Secretaría abre de 9 a 2.;0.285714
+mms_spa;f02;decl;puede recoger el justificante en conserjería;Puede recoger el justificante en Consejeía.;0.166667
+mms_spa;f07;decl;la matrícula se formaliza en la secretaría virtual;La matrícula se formaliza en la Secretaría Virtual.;0.0
+mms_spa;f08;decl;el profesor atiende en tutorías los martes por la tarde;El profesor atiende en tutorías los martes por la tarde.;0.0
+mms_spa;f09;decl;recuerde traer el carné de estudiante;Recuerde traer el carné de estudiante.;0.0
+mms_spa;f10;decl;la biblioteca permanece cerrada durante el puente de diciembre;La biblioteca permanece cerrada durante el puente de diciembre.;0.0
+mms_spa;f03;int_abs;tiene ya el certificado de notas;Tiene ya el certificado de notas.;0.0
+mms_spa;f11;int_abs;está abierta la secretaría hoy;Está abierta la secretaría hoy.;0.0
+mms_spa;f12;int_abs;puedo pagar la matrícula con tarjeta;Puedo pagar la matrícula con tarjeta.;0.0
+mms_spa;f13;int_abs;ha recibido ya el correo de confirmación;Ha recibido ya el correo de confirmación.;0.0
+mms_spa;f04;int_parc;qué documento necesita presentar;¿Qué documento necesita presentar?;0.0
+mms_spa;f14;int_parc;cuándo se publican las notas del examen;Cuando se publican las notas del examen.;0.142857
+mms_spa;f15;int_parc;dónde puedo recoger el carné de estudiante;¿Dónde puedo recoger el carné de estudiante?;0.0
+mms_spa;f16;int_parc;cuánto cuesta cada crédito de la matrícula;¿Cuánto cuesta cada crédito de la matrícula?;0.0
+mms_spa;f05;cifras;el plazo acaba el treinta de septiembre a las catorce horas;El plazo acaba el 3 del día en ver a la cipórede.;0.727273
+mms_spa;f17;cifras;la matrícula cuesta mil doscientos cincuenta euros;La matrícula cuesta 2.000 euros.;0.428571
+mms_spa;f18;cifras;el examen es el quince de enero a las nueve y media;El examen es el dice peligro a las NNNTD.;0.5
+mms_spa;f06;siglas;entregue el te efe ge en la etsi antes de junio;Entregue el tf en la eti antes de junio.;0.363636
+mms_spa;f19;siglas;consulte la normativa de la u hache u en el boe;Consulte la normativa de la UNLVOE.;0.545455
+mms_spa;f20;siglas;presente el de ene i en ventanilla;Presente el MIEM Ventanilla.;0.571429
+bark_spa;f01;decl;la secretaría abre de nueve a dos;La Secretaría abre de 9 a 2.;0.285714
+bark_spa;f02;decl;puede recoger el justificante en conserjería;puede recoger el justificante en conserjería.;0.0
+bark_spa;f07;decl;la matrícula se formaliza en la secretaría virtual;La matrícula se formaliza en la Secretaría Virtual.;0.0
+bark_spa;f08;decl;el profesor atiende en tutorías los martes por la tarde;El profesor atiende en tutorías los martes por la tarde.;0.0
+bark_spa;f09;decl;recuerde traer el carné de estudiante;Recuerde traer el carne al estudiante.;0.333333
+bark_spa;f10;decl;la biblioteca permanece cerrada durante el puente de diciembre;La biblioteca permanece cerrada durante el Puente de Diciembre.;0.0
+bark_spa;f03;int_abs;tiene ya el certificado de notas;¿Quién me guía el certificado de notas?;0.5
+bark_spa;f11;int_abs;está abierta la secretaría hoy;Está abierta la Secretaría hoy.;0.0
+bark_spa;f12;int_abs;puedo pagar la matrícula con tarjeta;Puedo pagar la matrícula con tarjeta.;0.0
+bark_spa;f13;int_abs;ha recibido ya el correo de confirmación;¿Ha recibido ya el correo de confirmación?;0.0
+bark_spa;f04;int_parc;qué documento necesita presentar;¿Qué documento necesito presentar?;0.25
+bark_spa;f14;int_parc;cuándo se publican las notas del examen;cuando se publican las notas del examen número que;0.428571
+bark_spa;f15;int_parc;dónde puedo recoger el carné de estudiante;¿Dónde puedo recoger el carnal estudiante?;0.285714
+bark_spa;f16;int_parc;cuánto cuesta cada crédito de la matrícula;¿Cuánto cuesta cada crédito de la matrícula?;0.0
+bark_spa;f05;cifras;el plazo acaba el treinta de septiembre a las catorce horas;El plazo acaba al 30, a las 14 estos.;0.545455
+bark_spa;f17;cifras;la matrícula cuesta mil doscientos cincuenta euros;La matrícula cuesta 1.250 euros.;0.428571
+bark_spa;f18;cifras;el examen es el quince de enero a las nueve y media;El examen es el 1501 a las 9.30.;0.5
+bark_spa;f06;siglas;entregue el te efe ge en la etsi antes de junio;Entregue tu TFG en la ETC antes de junio.;0.454545
+bark_spa;f19;siglas;consulte la normativa de la u hache u en el boe;Consonte la normativa de la UGACHU en el BOE.;0.363636
+bark_spa;f20;siglas;presente el de ene i en ventanilla;presente el DNI en ventanilla.;0.428571

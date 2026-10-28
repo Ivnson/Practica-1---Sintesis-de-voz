@@ -5,4 +5,5 @@ audio/
 modelos/
 mos/
 *.wav
-!muestras/*.wav
+!muestras/*.wav.DS_Store
+resultados/rtf_parcial.csv

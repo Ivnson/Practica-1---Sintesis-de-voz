@@ -4,6 +4,12 @@ __pycache__/
 audio/
 modelos/
 mos/
-*.wav
-!muestras/*.wav.DS_Store
 resultados/rtf_parcial.csv
+.DS_Store
+
+# Ignora todos los archivos .wav en cualquier parte del proyecto...
+*.wav
+
+# ...EXCEPTO los que estén dentro de la carpeta muestras
+!muestras/
+!muestras/*.wav

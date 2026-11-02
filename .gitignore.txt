@@ -1,8 +1,17 @@
 .venv/
+venv/
+env/
+ENV/
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.DS_Store
 .ipynb_checkpoints/
 audio/
 modelos/
 mos/
 *.wav
 !muestras/*.wav
+.vscode/
+.idea/
